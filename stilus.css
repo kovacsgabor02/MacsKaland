@@ -1,0 +1,48 @@
+body {
+
+}
+.tarolo {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;/* oldal közepére*/
+}
+.menu ul li{
+    padding: 20px;
+    background-color: rgb(223, 107, 40);
+    border-radius:30px;
+    margin:30px;
+}
+.menu ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+.fejlec {
+    background-image: url("kepek/hero.jpg");
+    height: 100vh;
+    background-size:cover;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color:white;
+}
+p {
+    color: rgb(110, 102, 102);
+    text-align: center;
+}
+.menu2 p {
+    background-color: rgb(223, 107, 40);
+    border-radius:30px;
+    margin:30px;
+    padding: 20px;
+
+    
+}
